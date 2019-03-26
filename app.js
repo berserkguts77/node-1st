@@ -130,7 +130,6 @@ router.post('/addMember',(req,res)=>{
                 res.redirect('boardList');
             }
         });
-        
     }   
 });
 
