@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>게시판 입력</title>
+    </head>
+    <body>
+        <h1>게시판 입력</h1>
+        <form action ="addMember" method="post">
+            <table border=1>
+                <tr>
+                    <th>ID</th> 
+                    <td>
+                        <input type="text" name="member_id">
+                    </td>
+                </tr>
+                <tr>
+                    <th>비밀번호</th>
+                    <td>
+                        <input type="password" name="member_pw">
+                    </td> 
+                </tr>
+                <tr>
+                    <th>이름</th>
+                    <td>
+                        <input type="text" name="member_name">
+                    </td>
+                </tr>
+                <button type="submit">회원가입</button> 
+            </table>
+        </form>
+    </body>
+</html>

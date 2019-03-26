@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            회원탈퇴
+        </title> 
+    </head>
+    <body>
+        <h1>회원탈퇴</h1> 
+        <form action="deleteMember" method="post">
+            <table border=1>
+                <tr>
+                    <th>ID</th> 
+                    <td><input type="text" name="member_id" value="<%= deleteMember %>" readonly></td>
+                </tr>
+                <tr>
+                    <th>비밀번호</th> 
+                    <td><input type="password" name="member_pw"></td>
+                </tr>
+                <button type="submit">탈퇴</button>
+            </table>        
+        </form>
+    </body>
+</html>
