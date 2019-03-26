@@ -110,6 +110,7 @@ router.get('/addMember',(req,res)=>{
     
 }); 
 
+
 // 회원가입 입력액션
 router.post('/addMember',(req,res)=>{
     if(req.session.login_member){
